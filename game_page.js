@@ -17,8 +17,5 @@ function Send() {
     Number1 = document.getElementById("multiplication1").value;
     Number2 = document.getElementById("multiplication2").value;
     equation = parseInt(Number1) * parseInt(Number2);
-    console.log(equation); 
+    console.log(equation);
 }
-
-question_turn = "player1";
-answer_turn = "player2";
